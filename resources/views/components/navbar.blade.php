@@ -27,9 +27,9 @@
 
         <ul class="navbar-nav me-end mb-2 mb-md-0">
          <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/login">
                 <button class="btn btn-outline-primary" type="/login">Login</button>
-                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                {{-- <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"> --}}
             </a>
          </li>
          {{-- <li class="nav-item">
