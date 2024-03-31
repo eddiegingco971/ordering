@@ -10,7 +10,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
@@ -18,7 +18,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link disabled">Disabled</a>
-          </li>
+          </li> --}}
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -31,6 +31,14 @@
                 <button class="btn btn-outline-primary" type="/login">Login</button>
                 {{-- <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"> --}}
             </a>
+
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="/register">
+                <button class="btn btn-outline-primary" type="/register">Register</button>
+                {{-- <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"> --}}
+            </a>
+
          </li>
          {{-- <li class="nav-item">
             <div class="dropdown text-start">

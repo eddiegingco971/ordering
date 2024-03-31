@@ -23,5 +23,6 @@ Route::get('/', function () {
 //     return view('login');
 // });
 Route::get('/login', [SiteController::class, 'login']);
+Route::get('/register', [SiteController::class, 'register']);
 
 // Auth::routes(['verify' => true]);
